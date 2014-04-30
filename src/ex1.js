@@ -29,7 +29,7 @@ define(function(require, exports, module) {
     // your app here
     var logo = new ImageSurface({
         size: [100, 100],
-        content: 'http://s3.amazonaws.com/xtunes-alex/uploads/images/kaya.jpg?AWSAccessKeyId=AKIAINHKADQCXVDB3XJA&Expires=1398817064&Signature=WSZT36M7n6FmBrYqYPprHAp1ofU%3D'
+        content: 'http://s3.amazonaws.com/xtunes-alex/uploads/images/led_zeppelin_1.jpg?AWSAccessKeyId=AKIAINHKADQCXVDB3XJA&Expires=1398831812&Signature=2JIWcbPiSN0djfblbZJuQkaCNm4%3D'
     });
 
     var logoModifier = new StateModifier({
