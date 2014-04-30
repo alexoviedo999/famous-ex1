@@ -29,7 +29,7 @@ define(function(require, exports, module) {
     // your app here
     var logo = new ImageSurface({
         size: [100, 100],
-        content: 'http://s3.amazonaws.com/xtunes-alex/uploads/images/kaya.jpg?AWSAccessKeyId=AKIAINHKADQCXVDB3XJA&Expires=1398782839&Signature=4EyWlsbc9EJGdfj%2BE9KVvlsHES4%3D'
+        content: 'http://s3.amazonaws.com/xtunes-alex/uploads/images/kaya.jpg?AWSAccessKeyId=AKIAINHKADQCXVDB3XJA&Expires=1398817064&Signature=WSZT36M7n6FmBrYqYPprHAp1ofU%3D'
     });
 
     var logoModifier = new StateModifier({
@@ -98,4 +98,3 @@ define(function(require, exports, module) {
     mainCtx.setPerspective(1000);
 
 });
- 
