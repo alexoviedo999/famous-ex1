@@ -28,7 +28,7 @@ define(function(require, exports, module) {
 
     // your app here
     var logo = new ImageSurface({
-        size: [300, 300],
+        size: [200, 200],
         content: 'http://www.loudmeyell.com/wp-content/uploads/2013/05/Optical-illusion-Wallpaper-Photography-1.gif'
     });
 
