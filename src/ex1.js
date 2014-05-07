@@ -38,7 +38,7 @@ define(function(require, exports, module) {
 
     // Create a surface, content is html
     var surface = new Surface({
-        size:    [100, 100],
+        size:    [75, 75],
         content: "<span>Click To<br/>Move<br/>Surface</span>",
         classes: ["test-surface"]
     });
@@ -63,7 +63,7 @@ define(function(require, exports, module) {
     // and an easing curve to transition between them
     var startPos = Transform.translate(0, 0, 0);
     var startPos2 = Transform.translate(60, 0, 0);
-    var endPos = Transform.translate(0, 0, 0);
+    var endPos = Transform.translate(150, 0, 0);
     var transform = new Modifier({ transform: startPos });
     var transform2 = new Modifier({ transform: startPos2 });
     var parti = new Modifier({ origin: [.5, .5] })
