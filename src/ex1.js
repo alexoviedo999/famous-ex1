@@ -63,7 +63,7 @@ define(function(require, exports, module) {
     // and an easing curve to transition between them
     var startPos = Transform.translate(0, 0, 0);
     var startPos2 = Transform.translate(150, 0, 0);
-    var endPos = Transform.translate(250, 0, 0);
+    var endPos = Transform.translate(450, 0, 0);
     var transform = new Modifier({ transform: startPos });
     var transform2 = new Modifier({ transform: startPos2 });
     var parti = new Modifier({ origin: [.5, .5] })
