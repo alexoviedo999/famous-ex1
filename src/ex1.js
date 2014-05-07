@@ -28,8 +28,8 @@ define(function(require, exports, module) {
 
     // your app here
     var logo = new ImageSurface({
-        size: [100, 100],
-        content: 'http://s3.amazonaws.com/xtunes-alex/uploads/images/led_zeppelin_1.jpg?AWSAccessKeyId=AKIAINHKADQCXVDB3XJA&Expires=1398831812&Signature=2JIWcbPiSN0djfblbZJuQkaCNm4%3D'
+        size: [300, 300],
+        content: 'http://www.loudmeyell.com/wp-content/uploads/2013/05/Optical-illusion-Wallpaper-Photography-1.gif'
     });
 
     var logoModifier = new StateModifier({
