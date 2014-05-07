@@ -53,8 +53,8 @@ define(function(require, exports, module) {
     // Create a spring that will act on the particle
     var spring = new Spring({
       anchor: [0, 0, 0],
-      period: 400,  // <= Play with these values :-)
-      dampingRatio: 0.07, // <=
+      period: 600,  // <= Play with these values :-)
+      dampingRatio: 0.05, // <=
       length: 0
     });
 
