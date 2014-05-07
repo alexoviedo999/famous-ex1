@@ -39,7 +39,7 @@ define(function(require, exports, module) {
     // Create a surface, content is html
     var surface = new Surface({
         size:    [75, 75],
-        content: "<span>Click To<br/>Move<br/>Surface</span>",
+        content: "<span>Move<br/>Surface</span>",
         classes: ["test-surface"]
     });
 
